@@ -20,8 +20,8 @@ app.get('/', (req, res)=>{
 })
 app.use('/api', require('./routes/users'))
 app.use('/mar', require('./routes/marc'))
-//server runmig----
 
+//server runmig----
 app.listen(app.get('port'), ()=>{
 	console.log('sevidor run port: ', app.get('port'))
 })
