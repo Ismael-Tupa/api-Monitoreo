@@ -16,7 +16,7 @@ app.use(myconn(mysql, conection, 'single'), cors())
 app.use(express.json())
 //rutas  ('/') es la principal
 app.get('/', (req, res)=>{
-	res.send('welcomen')
+	res.send('welcomen tasta')
 })
 app.use('/api', require('./routes/users'))
 app.use('/mar', require('./routes/marc'))
