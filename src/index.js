@@ -7,10 +7,10 @@ const app = express()
 app.set('port', process.env.PORT || 8000)
 
 const conection = {
-	host:'mysql-ismael.alwaysdata.net',
-	user:'ismael',
+	host:'mysql-ismael-tupa.alwaysdata.net',
+	user:'369656_',
 	password:'10646367',
-	database:'ismael_prueba'
+	database:'ismael-tupa_maps'
 }
 app.use(myconn(mysql, conection, 'single'), cors())
 app.use(express.json())
